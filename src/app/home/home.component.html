@@ -1,0 +1,11 @@
+<mat-card *ngFor="let name of names">
+  <span>
+    {{ name }}
+  </span>
+  <button mat-icon-button class="mediumButton" (click)="anwesend(name, true)">
+    <mat-icon aria-label="anwesend" id="check">check</mat-icon>
+  </button>
+  <button mat-icon-button class="mediumButton" (click)="anwesend(name, false)">
+    <mat-icon aria-label="nicht anwesend" id="close">close</mat-icon>
+  </button>
+</mat-card>

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "anwesenheit-fc533": {
+      "hosting": {
+        "anwesenheit": [
+          "anwesenheit-fc533"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+mat-card {
+  display: flex;
+  padding: 2rem;
+  margin: 1rem 4rem 1rem 4rem;
+  span {
+    font-size: 2rem;
+    text-align: center;
+    margin: auto auto auto 1rem;
+  }
+  .mediumButton {
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    mat-icon {
+      font-size: 2rem !important;
+      width: 2.5rem !important;
+      height: 2.5rem !important;
+      line-height: 2.5rem !important;
+    }
+  }
+  #check {
+    color: green;
+  }
+  #close {
+    color: red;
+    font-size: 250%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  mat-card {
+    display: flex;
+    margin: 0.5rem 1rem 0.5rem 1rem;
+  }
+}

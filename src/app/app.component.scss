@@ -1,0 +1,20 @@
+div {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 64px auto;
+
+  #date {
+    margin: auto 0 auto auto;
+    color: lightgrey;
+  }
+  main {
+    padding: 1rem;
+    overflow: auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  main {
+    margin: 0;
+  }
+}

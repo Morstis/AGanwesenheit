@@ -1,0 +1,7 @@
+<mat-form-field>
+  <mat-label>Name Import</mat-label>
+  <textarea matInput cdkTextareaAutosize #textarea></textarea>
+</mat-form-field>
+<button mat-raised-button color="primary" (click)="save(textarea.value)">
+  Senden
+</button>
